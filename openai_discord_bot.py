@@ -1,3 +1,6 @@
+#bot was made for Linux CZ/SK community
+#autor: Robert Mašír aka Delirium aka Avskum
+
 import requests
 import json
 
