@@ -7,7 +7,7 @@ client = discord.Client(intents=discord.Intents.all())
 def call_openai_api(prompt_text):
     url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer api_key",
         "Content-Type": "application/json",
     }
     data = json.dumps({
@@ -33,4 +33,4 @@ async def on_message(message):
         if response_text is not None:
             await message.channel.send(response_text)
 
-client.run('MTEyOTc1NTM3MTY3NDc5NjA3NA.Ghv4N5.CINmnq0fpaF4tqQtMuzLeaLYK00OYUf8qeA3k8')
+client.run('api_key')
