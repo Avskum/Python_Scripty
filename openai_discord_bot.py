@@ -1,4 +1,3 @@
-  GNU nano 4.8                                                                                                   discord_bot.py                                                                                                              import discord
 import requests
 import json
 
