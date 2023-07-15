@@ -32,4 +32,4 @@ async def on_message(message):
         if response_text is not None:
             await message.channel.send(response_text)
 
-client.run('api_key')
+client.run('api_discord_key')
